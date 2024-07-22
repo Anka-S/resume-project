@@ -1,0 +1,19 @@
+/* Browse Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    margin: 0;
+}
+.logo {
+    background: url("../images/28413.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    /* Animation when page is loading */
+    transition: all .5s ease-in-out;
+    /* For Mozzila browser*/
+    -moz-transition: all .5s ease-in-out;
+    /*For Safari browser*/
+    -webkit-transition: all .5s ease-in-out;
+}
