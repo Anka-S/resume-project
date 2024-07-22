@@ -1,11 +1,19 @@
 /* Browse Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Colours */
+.bg-color-name-title {
+    background-color: #676767;
 
+}
+/* Heading */
 header {
     margin: 0;
 }
+.heading {
+    margin-left: 50px;
+}
 .logo {
-    background: url("../images/28413.jpeg");
+    background: url("../images/logo-image.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,4 +24,19 @@ header {
     -moz-transition: all .5s ease-in-out;
     /*For Safari browser*/
     -webkit-transition: all .5s ease-in-out;
+}
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: white;
+}
+.title {
+    font-family: 'Exo-2', sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: white;
 }
